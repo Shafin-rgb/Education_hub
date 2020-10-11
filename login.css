@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+   .tex-right{
+       text-align: right;
+   }
+   .tex-left{
+       text-align: left;
+   }
+   .tex-center{
+       text-align: center;
+   }
+   
+   .clear::after{
+       content: '';
+       display: block;
+       clear:both;
+   
+   }
+   
+   .left{
+       float: left;
+   }
+   
+   .right{
+       float: right;
+   }
+   
+   img{
+       max-width: 100%;
+   }
+   
+   a{
+       text-decoration: none;
+       font-weight: 500;
+   }
+   
+   
+   .container{
+       max-width: 1100px;
+       margin: auto;
+   }
+
+
+   body,h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family: 'Righteous', cursive;
+}
+
+
+
+.formt-bar{
+padding: 35px;
+background: rgb(52,45,101);
+background: linear-gradient(29deg, rgba(52,45,101,1) 0%, rgba(255,40,79,1) 100%);
+
+}
+
+img {
+    width: 120px;
+    height: auto;
+    margin-left: 30rem;
+}
+
+.formt-bar h2{
+    color: rgb(238, 238, 238);
+    font-weight: 500;
+}
+
+.form-section{
+    margin-top: 50px;
+    padding: 85px;
+    position: relative;
+    
+    
+}
+
+
+i.fa.fa-user-o {
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 11px;
+    color: #838383;
+}
+i.fa.fa-lock {
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 11px;
+    color: #838383;
+}
+
+
+input[type="text"] {
+    padding: 12px 70px;
+    outline: none;
+    border: none;
+   border-bottom: 1px solid rgb(177, 177, 177);
+  
+    
+}
+
+input[type="password"] {
+    padding: 12px 70px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+button {
+    width: 90px;
+    height: 39px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff284f;
+    cursor: pointer;
+    color: #ffff;
+    transition: .5s;
+}
+
+button:hover{
+    background-color:transparent;
+    color: #ff284f;
+    border: 1px solid #ff284f;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    outline: none;
+    
+}
+
+a {
+    padding-left: 124px;
+}
+
+
+
+.footer-section{
+    margin-top: 25px;
+    background: rgb(52,45,101);
+background: linear-gradient(29deg, rgba(52,45,101,1) 0%, rgba(255,40,79,1) 100%);
+}
+
+
+.footer{
+    width: 100%;
+     margin-top: 25px;
+    height: 300px;
+}
+
+.brand-bar{
+    margin-top: 35px;
+    width: 50%;
+  
+   
+}
+
+.brand-bar h4 {
+    padding-top: 15px;
+    font-size: 27px;
+    font-weight: 500;
+    color: rgb(238, 238, 238);
+}
+
+.brand-bar p{
+    padding-top: 7px;
+    color: rgb(238, 238, 238);
+}
+
+
+.social-bar{
+    width: 48%;
+    
+ 
+    text-align: right;
+    
+}
+
+
+.social-bar h4{
+    padding-top: 14px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    padding-top: 46px;
+    font-size: 27px;
+     font-weight: 500;
+    color: rgb(238, 238, 238);
+    margin-right: 60px;
+}
+
+
+
+/* icon bgand hover */
+
+
+
+i.fa.fa-facebook {
+    padding: 15px 22px;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+i.fa.fa-facebook:hover{
+    background-color: rgb(238, 238, 238);
+    color: #14112e;
+    border-radius: 5px;
+}
+
+i.fa.fa-instagram {
+    padding: 15px 22px;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+i.fa.fa-instagram:hover{
+    background-color: rgb(238, 238, 238);
+    color: #14112e;
+    border-radius: 5px;
+}
+
+
+i.fa.fa-twitter {
+    padding: 15px 22px;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+i.fa.fa-twitter:hover{
+    background-color: rgb(238, 238, 238);
+    color: #14112e;
+    border-radius: 5px;
+}
+
+i.fa.fa-youtube {
+    padding: 15px 22px;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+i.fa.fa-youtube:hover{
+    background-color: rgb(238, 238, 238);
+    color: #14112e;
+    border-radius: 5px;
+}
+
